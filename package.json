@@ -1,0 +1,17 @@
+{
+  "name": "laziji",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "element-ui": "^2.3.5",
+    "gridsome": "^0.7.0",
+    "js-cookie": "^2.2.1",
+    "vuex": "^3.6.2",
+    "mavon-editor": "^2.5.2"
+  }
+}
