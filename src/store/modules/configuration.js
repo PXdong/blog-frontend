@@ -1,11 +1,13 @@
 /*
  * @Author: dongpx
  * @Date: 2021-03-19 14:06:05
- * @LastEditTime: 2021-03-19 16:31:08
+ * @LastEditTime: 2021-03-20 11:43:40
  * @LastEditors: dongpx
  * @Description: 
  * @FilePath: /laziji/src/store/modules/configuration.js
  */
+
+import config from '@/config/config'
 
 const configuration = {
     state: {
@@ -57,16 +59,16 @@ const configuration = {
             commit('SET_CONFIGURATION', configuration)
         },
         Init({ commit }) {
-            let xmlhttp
-            if (window.XMLHttpRequest) {
-                xmlhttp = new XMLHttpRequest()
-            } else {
-                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP")
-            }
-            xmlhttp.open("GET", "/configuration.json", false)
-            xmlhttp.send()
-            let configuration = JSON.parse(xmlhttp.responseText)
-            commit('SET_CONFIGURATION', configuration)
+            // let xmlhttp
+            // if (window.XMLHttpRequest) {
+            //     xmlhttp = new XMLHttpRequest()
+            // } else {
+            //     xmlhttp = new ActiveXObject("Microsoft.XMLHTTP")
+            // }
+            // xmlhttp.open("GET", "/configuration.json", false)
+            // xmlhttp.send()
+            // let configuration = JSON.parse(xmlhttp.responseText)
+            commit('SET_CONFIGURATION', config)
         }
     }
 }

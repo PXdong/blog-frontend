@@ -1,7 +1,7 @@
 /*
  * @Author: dongpx
  * @Date: 2021-03-15 20:48:51
- * @LastEditTime: 2021-03-19 16:33:47
+ * @LastEditTime: 2021-03-20 11:50:20
  * @LastEditors: dongpx
  * @Description: 
  * @FilePath: /laziji/src/main.js
@@ -31,13 +31,6 @@ export default function (Vue, { router, head, isClient, appOptions }) {
     return mavonEditor.markdownIt.render(value)
 }
 
-  Vue.prototype.$setTitle = function (title) {
-    if (title) {
-        document.title = store.state.configuration.htmlTitle + " - " + title
-    } else {
-        document.title = store.state.configuration.htmlTitle
-    }
-}
   Vue.prototype.$util = util
 
   

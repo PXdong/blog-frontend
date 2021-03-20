@@ -1,3 +1,11 @@
+/*
+ * @Author: dongpx
+ * @Date: 2021-03-19 14:04:44
+ * @LastEditTime: 2021-03-20 11:27:42
+ * @LastEditors: dongpx
+ * @Description: 
+ * @FilePath: /laziji/src/api/gist.js
+ */
 import request from '@/utils/request'
 import store from '../store/index'
 
