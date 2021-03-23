@@ -240,9 +240,9 @@
                     this.$refs.music.pause()
                 }
                 this.music.isPlay = !this.$refs.music.paused
-                this.$nextTick(() => {
-                    document.getElementById('play').blur()
-                })
+                // this.$nextTick(() => {
+                //     document.getElementById('play').blur()
+                // })
 
             },
             changeTime(time) {
