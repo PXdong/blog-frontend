@@ -1,3 +1,11 @@
+/*
+ * @Author: dongpx
+ * @Date: 2021-03-15 20:48:51
+ * @LastEditTime: 2021-03-23 15:56:56
+ * @LastEditors: dongpx
+ * @Description:
+ * @FilePath: /laziji/gridsome.server.js
+ */
 // Server API makes it possible to hook into various parts of Gridsome
 // on server-side and add custom data to the GraphQL data layer.
 // Learn more: https://gridsome.org/docs/server-api/
@@ -5,7 +13,7 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-module.exports = function (api) {
+module.exports = function(api) {
   api.loadSource(({ addCollection }) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
   })

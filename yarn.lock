@@ -5213,6 +5213,11 @@ jest-worker@24.0.0:
     merge-stream "^1.0.1"
     supports-color "^6.1.0"
 
+js-base64@^3.6.0:
+  version "3.6.0"
+  resolved "https://registry.npm.taobao.org/js-base64/download/js-base64-3.6.0.tgz#773e1de628f4f298d65a7e9842c50244751f5756"
+  integrity sha1-dz4d5ij08pjWWn6YQsUCRHUfV1Y=
+
 js-cookie@^2.2.1:
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/js-cookie/download/js-cookie-2.2.1.tgz#69e106dc5d5806894562902aa5baec3744e9b2b8"

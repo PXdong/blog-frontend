@@ -1,3 +1,11 @@
+/*
+ * @Author: dongpx
+ * @Date: 2021-03-15 20:48:51
+ * @LastEditTime: 2021-03-23 16:07:46
+ * @LastEditors: dongpx
+ * @Description:
+ * @FilePath: /laziji/gridsome.config.js
+ */
 // This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
@@ -6,5 +14,5 @@
 
 module.exports = {
   siteName: 'Gridsome',
-  plugins: []
+  plugins: [],
 }
