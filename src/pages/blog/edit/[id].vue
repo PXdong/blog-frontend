@@ -1,7 +1,7 @@
 <!--
  * @Author: dongpx
  * @Date: 2021-03-23 16:16:55
- * @LastEditTime: 2021-03-23 16:21:31
+ * @LastEditTime: 2021-03-23 16:51:31
  * @LastEditors: dongpx
  * @Description: 
  * @FilePath: /laziji/src/pages/blog/edit/[id].vue
@@ -22,14 +22,14 @@
           <el-input v-model="form.description" type="textarea"></el-input>
         </el-form-item>
         <el-form-item label="博客正文" prop="content">
-          <mavon-editor
+          <!-- <mavon-editor
             @imgAdd="imgAdd"
             style="max-height: 500px"
             ref="md"
             v-model="form.content"
             :subfield="false"
             :toolbars="mavonEditorToolbars"
-          />
+          /> -->
         </el-form-item>
         <el-form-item>
           <el-button
